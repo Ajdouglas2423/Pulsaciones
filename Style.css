@@ -1,0 +1,95 @@
+*{
+margin:0 ;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    background-image: url('fondo.jpg');
+
+}
+
+
+.formulario-registro{
+    width: 800px;
+    background: #F0FEFF;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    box-shadow: 7px 14px 38px #111111;
+
+
+}
+.formulario-registro h4{
+
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.Controles{
+    width: 100%;
+    background:#24303c ;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 17px;
+    border: 1px solid #111111;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:black;
+
+}
+
+.formulario-registro p{
+
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+
+}
+.formulario-registro a{
+    color: blue;
+    text-decoration: none;
+    
+}
+.formulario-registro a:hover{
+    color: blue;
+    text-decoration: underline;
+    
+}
+.botones{
+width: 100%;
+background: black;
+border: none;
+padding: 14px;
+color:white;
+margin: 17px 0;
+font-size: 17px;
+
+}
+
+#main-container{
+    margin: 170px auto;
+    width: 700px
+    ;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #152B99;
+  color: white;
+}
